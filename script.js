@@ -40,7 +40,7 @@ function displayCard(card) {
             </div>
 
             <div class="card-image-container">
-                <img src="${card.card_images[0].image_url}" alt="${card.name}" class="card-image">
+                <img src="${card.card_images[0].image_url_cropped}" alt="${card.name}" class="card-image">
             </div>
 
             <div class="card-type">
